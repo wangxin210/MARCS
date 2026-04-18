@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: multi-agent-ecommerce
+  ai:
+    openai:
+      api-key: sk-95763f95226e436292799897537b0085
+      base-url: https://api.deepseek.com #"https://open.bigmodel.cn/api/anthropic" # 指定请求发往哪个服务器
+      chat:
+        options:
+          model: deepseek-chat
+          temperature: 0.7 # 控制输出的随机性，0.7 是一个平衡值，既保证文案有创意，又不会太离谱。
+  datasource:
+    url: jdbc:h2:mem:ecommerce # H2 内存数据库，意味着数据只存在内存中，重启服务后数据会消失
+    driver-class-name: org.h2.Driver # H2 数据库驱动
+  jpa:
+    hibernate:
+      ddl-auto: update # 自动创建数据库表结构
+  # Redis 配置
+  data:
+    redis:
+      host: 192.168.100.128
+      port: 6379
+      password: 123321
+      database: 0
+
+server:
+  port: 8080 # 推荐系统将在本地的 8080 端口监听请求
