@@ -1,7 +1,7 @@
 # 🛒 MARCS — Multi-Agent Retail & Commerce System
 
 [![Java Version](https://img.shields.io/badge/Java-17+-blue.svg)](https://www.oracle.com/java/technologies/javase-downloads.html)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7+-green.svg)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0+-green.svg)](https://spring.io/projects/spring-boot)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **MARCS** (Multi-Agent Retail & Commerce System) 是一个基于多智能体架构的企业级电商智能决策平台。系统通过多个专业化AI Agent的协作与编排，实现智能化的商品推荐、库存管理、营销内容生成及用户画像分析等功能，为电商业务提供全面的智能化解决方案。
